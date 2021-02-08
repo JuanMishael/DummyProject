@@ -1,0 +1,168 @@
+body{
+    
+    margin-top: 12%; 
+    margin-left: 0;
+    background-color: lightcyan;
+    background-image: url("../image/backround.jpg");
+    background-position: center;   
+}
+#mainHeader{
+    background-color: rgb(49, 50, 51);
+    color: white;
+    line-height: 2em;
+    padding: 1px;
+    border-radius: 5px;
+    text-shadow: 6px 3px 5px black;
+    text-decoration-line: underline;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header h1{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#navbar{
+    border-radius: 5px;
+    background-color: grey;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 77px;
+}
+.container{
+    margin: auto;
+    overflow: hidden;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    
+    
+}
+#navbar li{
+    display: inline;
+    padding-left: 20px;
+    
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant-caps: small-caps;
+    text-shadow: 5px 2px 4px black;
+
+}
+#block1{
+
+    background-color: #0d0d0d;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+    border: 10px red solid;
+    border-radius: 10px; /*Make the edge rounded, use this attrib*/
+    box-shadow: 5px 4px 4px black;
+}
+.hed1{
+    color: red;
+    
+}
+#vid{
+    padding-left: 10px;
+    background-color: silver;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px black;
+}
+#block1 p{
+    color: salmon;
+}
+#fonts{
+    background-color: snow;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    line-height: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px black;
+}
+/*font-family below  */
+#fonts h2{
+    line-height: 30px;
+}
+p.serif{
+    font-family: 'Times New Roman', Times, serif;
+}
+p.sanserif{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+p.monospace{
+    font-family: 'Courier New', Courier, monospace;
+}
+p.cursive{
+    font-family: Florence, cursive;
+    font-size: x-large;
+}
+p.fantasy{
+    font-family: Blippo,fantasy;
+}
+p.oblique{
+    font-style: oblique;
+}
+p.italic{
+    font-style: italic;
+}
+p.weight{
+    font-weight: lighter;
+    line-height: 20px;
+}
+span.bold{
+    font-weight: bold;
+}
+p.variant{
+    font-variant-caps: small-caps;
+}
+p.color{
+    color: indigo;
+}
+p.align{
+    text-align: center;
+}
+#MoreText{
+    background-color: khaki;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px black;
+}
+td.Top{
+    vertical-align: top;
+}
+td.middle{
+    vertical-align: middle;
+}
+td.bottom{
+    vertical-align: bottom;
+}
+#vid h1{
+   
+    text-decoration: underline;
+}
+#sidebar{
+    float: right;
+    width: 15%;
+    height: 30%;
+    background-color: cornsilk;
+    padding:100px 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    
+}
+aside p{
+    padding:20px;
+}
